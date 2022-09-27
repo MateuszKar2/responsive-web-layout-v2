@@ -16,8 +16,8 @@
     --backgroundbackdrop: rgba(000, 000, 000, 0.2);
   }
   body {
-    font-family: "Raleway", sans-serif;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif; 
+     
     color: var(--grey);
     font-size: 14px;
   }
@@ -192,6 +192,7 @@
     list-style: none;
   }
   .address-text {
+    font-style: normal;
     color: var(--white);
     font-size: 14px;
     line-height: 1.71;
@@ -200,4 +201,4 @@
     color: var(--footerlinks);
     font-size: 14px;
     line-height: 1.71;
-  }  
+  }
